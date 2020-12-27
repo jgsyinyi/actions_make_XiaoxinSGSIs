@@ -1,7 +1,7 @@
 {
-  "rom_url": "http://bigota.d.miui.com/V12.0.15.0.QJJCNXM/cas_images_V12.0.15.0.QJJCNXM_20201209.0000.00_10.0_cn_77d730d8ca.tgz",
-  "rom_name": "cas_images_V12.0.15.0.QJJCNXM_20201209.0000.00_10.0_cn_77d730d8ca.tgz",
-  "pack_sgsi": "XiaoxinSGSIs_Pinkdoge.7z",
+  "rom_url": "http://bigota.d.miui.com/V12.0.15.0.QJJCNXM/miui_CAS_V12.0.15.0.QJJCNXM_5abfb26bdb_10.0.zip",
+  "rom_name": "miui_CAS_V12.0.15.0.QJJCNXM_5abfb26bdb_10.0.zip",
+  "pack_sgsi": "miui12.img",
   "make_miui": true,
   "make_flyme": false,
   "make_coloros": false,
