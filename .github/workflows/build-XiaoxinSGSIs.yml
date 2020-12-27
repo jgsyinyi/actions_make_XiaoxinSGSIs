@@ -131,6 +131,12 @@ jobs:
            curl -sL https://git.io/file-transfer | sh
            ./transfer wet ${{ steps.var.outputs.pack_sgsi }}
           
+       - name: Upload SGSI to CowTransfer
+         if: steps.var.outputs.upload_CowTransfer == 'true'
+         run: |
+           curl -sL https://git.io/cowtransfer | sh
+           ./cowtransfer-uploader ${{ steps.var.outputs.pack_sgsi }}
+       
        - name: Upload SGSI to Artifact
          if: steps.var.outputs.upload_artifact == 'true'
          uses: actions/upload-artifact@v2
